@@ -1,17 +1,37 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
+  "name": "top-styling-and-review-w-proxy",
+  "description": "> Project description",
   "author": "",
-  "license": "",
+  "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "build:dev": "webpack -d --watch",
+    "start": "node server/proxy-server.js"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.3",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
-  }
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git",
+    "webpack-cli": "^3.3.11"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fec7-gollum/top-styling-and-review-w-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fec7-gollum/top-styling-and-review-w-proxy/issues"
+  },
+  "homepage": "https://github.com/fec7-gollum/top-styling-and-review-w-proxy#readme"
 }
