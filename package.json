@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build:dev": "webpack -d --watch",
-    "start": "node server/proxy-server.js"
+    "start": "node proxy-server.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -16,6 +16,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.3",
+    "node-fetch": "^2.6.0",
     "path": "^0.12.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
