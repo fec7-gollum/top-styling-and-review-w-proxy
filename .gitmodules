@@ -1,4 +1,4 @@
-[submodule "ingredients-carousel-Max"]
+[submodule "Max"]
+	path = Max
+	url = https://github.com/fec7-gollum/ingredients-carousel-and-equipment-list.git
 
-path = ./
-url = https://github.com/fec7-gollum/ingredients-carousel-and-equipment-list.git
