@@ -1,10 +1,11 @@
-[submodule "Max"]
-	path = Max
-	url = https://github.com/fec7-gollum/ingredients-carousel-and-equipment-list.git
+# [submodule "Max"]
+# 	path = Max
+# 	url = https://github.com/fec7-gollum/ingredients-carousel-and-equipment-list.git
 
 [submodule "Justin"]
 	path = Justin
 	url = https://github.com/fec7-gollum/top-styling-and-reviews.git
+
 [submodule "Zeke"]
 	path = Zeke
 	url = https://github.com/fec7-gollum/recipe-steps-w-video-carousel.git
