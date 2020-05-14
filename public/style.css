@@ -1,8 +1,18 @@
-.ReviewModule {
-  margin-top: 280vh;
+/* .ReviewModule {
+  margin-top: 1080vh;
   position: absolute;
-}
+} */
 
 #app {
   margin-top: 8vh;
+}
+
+#steps {
+  border-top: 5px solid black;
+  margin-top: 0vh;
+  margin-left: -15vw;
+}
+
+#reviews {
+  margin-top: 25vh;
 }
